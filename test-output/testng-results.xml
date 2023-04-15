@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="2" total="7" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-15T18:27:02 IST" name="MiniFram1 Test Suite" finished-at="2023-04-15T18:28:56 IST" duration-ms="114750">
+    <groups>
+    </groups>
+    <test started-at="2023-04-15T18:27:02 IST" name="MiniFrameTest2" finished-at="2023-04-15T18:28:56 IST" duration-ms="114750">
+      <class name="TestPackage1.TestCase2">
+        <test-method is-config="true" signature="beforeMethodmethod1(java.lang.String)[pri:0, instance:TestPackage1.TestCase2@413d1baf]" started-at="2023-04-15T18:28:22 IST" name="beforeMethodmethod1" finished-at="2023-04-15T18:28:31 IST" duration-ms="9325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodmethod1 -->
+        <test-method signature="clickCreateAccount()[pri:0, instance:TestPackage1.TestCase2@413d1baf]" started-at="2023-04-15T18:28:31 IST" name="clickCreateAccount" finished-at="2023-04-15T18:28:35 IST" duration-ms="4016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCreateAccount -->
+        <test-method is-config="true" signature="aftermethodtmethod1(org.testng.ITestResult)[pri:0, instance:TestPackage1.TestCase2@413d1baf]" started-at="2023-04-15T18:28:35 IST" name="aftermethodtmethod1" finished-at="2023-04-15T18:28:39 IST" duration-ms="3920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickCreateAccount status=SUCCESS method=TestCase2.clickCreateAccount()[pri:0, instance:TestPackage1.TestCase2@413d1baf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodtmethod1 -->
+        <test-method is-config="true" signature="beforeMethodmethod1(java.lang.String)[pri:0, instance:TestPackage1.TestCase2@413d1baf]" started-at="2023-04-15T18:28:39 IST" name="beforeMethodmethod1" finished-at="2023-04-15T18:28:48 IST" duration-ms="8955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodmethod1 -->
+        <test-method signature="createnewaccount()[pri:0, instance:TestPackage1.TestCase2@413d1baf]" started-at="2023-04-15T18:28:48 IST" name="createnewaccount" finished-at="2023-04-15T18:28:52 IST" duration-ms="4474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewaccount -->
+        <test-method is-config="true" signature="aftermethodtmethod1(org.testng.ITestResult)[pri:0, instance:TestPackage1.TestCase2@413d1baf]" started-at="2023-04-15T18:28:52 IST" name="aftermethodtmethod1" finished-at="2023-04-15T18:28:56 IST" duration-ms="3881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createnewaccount status=SUCCESS method=TestCase2.createnewaccount()[pri:0, instance:TestPackage1.TestCase2@413d1baf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodtmethod1 -->
+      </class> <!-- TestPackage1.TestCase2 -->
+      <class name="TestPackage1.TestCase1">
+        <test-method is-config="true" signature="beforetestmethod1()[pri:0, instance:TestPackage1.TestCase1@5b218417]" started-at="2023-04-15T18:27:02 IST" name="beforetestmethod1" finished-at="2023-04-15T18:27:02 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetestmethod1 -->
+        <test-method is-config="true" signature="beforeMethodmethod1(java.lang.String)[pri:0, instance:TestPackage1.TestCase1@5b218417]" started-at="2023-04-15T18:27:02 IST" name="beforeMethodmethod1" finished-at="2023-04-15T18:27:27 IST" duration-ms="25171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodmethod1 -->
+        <test-method retried="true" signature="SampleMethodforEmailEntering()[pri:0, instance:TestPackage1.TestCase1@5b218417]" started-at="2023-04-15T18:27:27 IST" name="SampleMethodforEmailEntering" finished-at="2023-04-15T18:27:32 IST" duration-ms="5252" status="SKIP">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element with the reference 5b50f979-63aa-4d99-9293-54ddb4af7ce5 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [acb10bc8-c1ea-4270-8a16-1f27311a11ba, clickElement {id=5b50f979-63aa-4d99-9293-54ddb4af7ce5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:13075, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8012, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:13075/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (acb10bc8-c1ea-4270-8a16-1f27311a11ba)] -> xpath: //span[@class='a-button-inner']/a]
+Session ID: acb10bc8-c1ea-4270-8a16-1f27311a11ba]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element with the reference 5b50f979-63aa-4d99-9293-54ddb4af7ce5 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [acb10bc8-c1ea-4270-8a16-1f27311a11ba, clickElement {id=5b50f979-63aa-4d99-9293-54ddb4af7ce5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:13075, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8012, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:13075/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (acb10bc8-c1ea-4270-8a16-1f27311a11ba)] -> xpath: //span[@class='a-button-inner']/a]
+Session ID: acb10bc8-c1ea-4270-8a16-1f27311a11ba
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at PageEvents.HomePageEvents.clickHomepageSigninbutton(HomePageEvents.java:13)
+at TestPackage1.TestCase1.SampleMethodforEmailEntering(TestCase1.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SampleMethodforEmailEntering -->
+        <test-method is-config="true" signature="aftermethodtmethod1(org.testng.ITestResult)[pri:0, instance:TestPackage1.TestCase1@5b218417]" started-at="2023-04-15T18:27:32 IST" name="aftermethodtmethod1" finished-at="2023-04-15T18:27:46 IST" duration-ms="14144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SampleMethodforEmailEntering status=SKIP method=TestCase1.SampleMethodforEmailEntering()[pri:0, instance:TestPackage1.TestCase1@5b218417] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodtmethod1 -->
+        <test-method is-config="true" signature="beforeMethodmethod1(java.lang.String)[pri:0, instance:TestPackage1.TestCase1@5b218417]" started-at="2023-04-15T18:27:46 IST" name="beforeMethodmethod1" finished-at="2023-04-15T18:27:58 IST" duration-ms="11836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodmethod1 -->
+        <test-method signature="SampleMethodforEmailEntering()[pri:0, instance:TestPackage1.TestCase1@5b218417]" started-at="2023-04-15T18:27:58 IST" name="SampleMethodforEmailEntering" finished-at="2023-04-15T18:28:01 IST" duration-ms="2524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SampleMethodforEmailEntering -->
+        <test-method is-config="true" signature="aftermethodtmethod1(org.testng.ITestResult)[pri:0, instance:TestPackage1.TestCase1@5b218417]" started-at="2023-04-15T18:28:01 IST" name="aftermethodtmethod1" finished-at="2023-04-15T18:28:05 IST" duration-ms="3914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SampleMethodforEmailEntering status=SUCCESS method=TestCase1.SampleMethodforEmailEntering()[pri:0, instance:TestPackage1.TestCase1@5b218417] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodtmethod1 -->
+        <test-method is-config="true" signature="beforeMethodmethod1(java.lang.String)[pri:0, instance:TestPackage1.TestCase1@5b218417]" started-at="2023-04-15T18:28:05 IST" name="beforeMethodmethod1" finished-at="2023-04-15T18:28:14 IST" duration-ms="9505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodmethod1 -->
+        <test-method signature="clickContniueButtoon()[pri:0, instance:TestPackage1.TestCase1@5b218417]" started-at="2023-04-15T18:28:14 IST" name="clickContniueButtoon" finished-at="2023-04-15T18:28:18 IST" duration-ms="3325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContniueButtoon -->
+        <test-method is-config="true" signature="aftermethodtmethod1(org.testng.ITestResult)[pri:0, instance:TestPackage1.TestCase1@5b218417]" started-at="2023-04-15T18:28:18 IST" name="aftermethodtmethod1" finished-at="2023-04-15T18:28:22 IST" duration-ms="3964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickContniueButtoon status=SUCCESS method=TestCase1.clickContniueButtoon()[pri:0, instance:TestPackage1.TestCase1@5b218417] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodtmethod1 -->
+        <test-method is-config="true" signature="aftertesttmethod1()[pri:0, instance:TestPackage1.TestCase1@5b218417]" started-at="2023-04-15T18:28:56 IST" name="aftertesttmethod1" finished-at="2023-04-15T18:28:56 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertesttmethod1 -->
+      </class> <!-- TestPackage1.TestCase1 -->
+    </test> <!-- MiniFrameTest2 -->
+  </suite> <!-- MiniFram1 Test Suite -->
+</testng-results>

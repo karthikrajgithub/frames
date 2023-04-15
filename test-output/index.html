@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MiniFram1_Test_Suite" class="navigator-link">
+              <span class="suite-name border-skipped">MiniFram1 Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MiniFram1_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\HP\eclipse-workspace\MiniFram1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MiniFram1_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MiniFram1_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MiniFram1_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MiniFram1_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MiniFram1_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MiniFram1_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,  1 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-MiniFram1_Test_Suite" class="hide-methods skipped suite-MiniFram1_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-MiniFram1_Test_Suite -->
+                      <a href="#" panel-name="suite-MiniFram1_Test_Suite" class="show-methods skipped suite-MiniFram1_Test_Suite"> (show)</a> <!-- show-methods skipped suite-MiniFram1_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-MiniFram1_Test_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-MiniFram1_Test_Suite" title="TestPackage1.TestCase1" class="method navigator-link" hash-for-method="SampleMethodforEmailEntering">SampleMethodforEmailEntering</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-MiniFram1_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MiniFram1_Test_Suite" class="hide-methods passed suite-MiniFram1_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-MiniFram1_Test_Suite -->
+                      <a href="#" panel-name="suite-MiniFram1_Test_Suite" class="show-methods passed suite-MiniFram1_Test_Suite"> (show)</a> <!-- show-methods passed suite-MiniFram1_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-MiniFram1_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MiniFram1_Test_Suite" title="TestPackage1.TestCase1" class="method navigator-link" hash-for-method="SampleMethodforEmailEntering">SampleMethodforEmailEntering</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MiniFram1_Test_Suite" title="TestPackage1.TestCase1" class="method navigator-link" hash-for-method="clickContniueButtoon">clickContniueButtoon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MiniFram1_Test_Suite" title="TestPackage1.TestCase2" class="method navigator-link" hash-for-method="clickCreateAccount">clickCreateAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MiniFram1_Test_Suite" title="TestPackage1.TestCase2" class="method navigator-link" hash-for-method="createnewaccount">createnewaccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MiniFram1_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MiniFram1_Test_Suite" class="panel MiniFram1_Test_Suite">
+          <div class="suite-MiniFram1_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestPackage1.TestCase1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SampleMethodforEmailEntering">
+                  </a> <!-- SampleMethodforEmailEntering -->
+                  <span class="method-name">SampleMethodforEmailEntering</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element with the reference 5b50f979-63aa-4d99-9293-54ddb4af7ce5 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [acb10bc8-c1ea-4270-8a16-1f27311a11ba, clickElement {id=5b50f979-63aa-4d99-9293-54ddb4af7ce5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:13075, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8012, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:13075/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (acb10bc8-c1ea-4270-8a16-1f27311a11ba)] -&gt; xpath: //span[@class=&apos;a-button-inner&apos;]/a]
+Session ID: acb10bc8-c1ea-4270-8a16-1f27311a11ba
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at PageEvents.HomePageEvents.clickHomepageSigninbutton(HomePageEvents.java:13)
+	at TestPackage1.TestCase1.SampleMethodforEmailEntering(TestCase1.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MiniFram1_Test_Suite-class-skipped -->
+          <div class="suite-MiniFram1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestPackage1.TestCase2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickCreateAccount">
+                  </a> <!-- clickCreateAccount -->
+                  <span class="method-name">clickCreateAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewaccount">
+                  </a> <!-- createnewaccount -->
+                  <span class="method-name">createnewaccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MiniFram1_Test_Suite-class-passed -->
+          <div class="suite-MiniFram1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestPackage1.TestCase1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SampleMethodforEmailEntering">
+                  </a> <!-- SampleMethodforEmailEntering -->
+                  <span class="method-name">SampleMethodforEmailEntering</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickContniueButtoon">
+                  </a> <!-- clickContniueButtoon -->
+                  <span class="method-name">clickContniueButtoon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MiniFram1_Test_Suite-class-passed -->
+        </div> <!-- panel MiniFram1_Test_Suite -->
+        <div panel-name="test-xml-MiniFram1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HP\eclipse-workspace\MiniFram1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;MiniFram1 Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.suiteListner&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;MiniFrameTest1&quot;&gt;
+    &lt;parameter name=&quot;browsername&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestPackage1.TestCase1&quot;/&gt;
+      &lt;class name=&quot;TestPackage1.TestCase2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MiniFrameTest1 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;MiniFrameTest2&quot;&gt;
+    &lt;parameter name=&quot;browsername&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestPackage1.TestCase1&quot;/&gt;
+      &lt;class name=&quot;TestPackage1.TestCase2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MiniFrameTest2 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;MiniFrameTest3&quot;&gt;
+    &lt;parameter name=&quot;browsername&quot; value=&quot;&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestPackage1.TestCase1&quot;/&gt;
+      &lt;class name=&quot;TestPackage1.TestCase2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MiniFrameTest3 --&gt;
+&lt;/suite&gt; &lt;!-- MiniFram1 Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MiniFram1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MiniFram1 Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MiniFrameTest1 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">MiniFrameTest2 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">MiniFrameTest3 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MiniFram1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MiniFram1 Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MiniFram1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MiniFram1 Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MiniFram1_Test_Suite');
+function tableData_MiniFram1_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SampleMethodforEmailEntering')
+data.setCell(0, 2, 'TestPackage1.TestCase1')
+data.setCell(0, 3, 5252);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createnewaccount')
+data.setCell(1, 2, 'TestPackage1.TestCase2')
+data.setCell(1, 3, 4474);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickCreateAccount')
+data.setCell(2, 2, 'TestPackage1.TestCase2')
+data.setCell(2, 3, 4016);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickContniueButtoon')
+data.setCell(3, 2, 'TestPackage1.TestCase1')
+data.setCell(3, 3, 3325);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SampleMethodforEmailEntering')
+data.setCell(4, 2, 'TestPackage1.TestCase1')
+data.setCell(4, 3, 2524);
+window.suiteTableData['MiniFram1_Test_Suite']= { tableData: data, tableDiv: 'times-div-MiniFram1_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-MiniFram1_Test_Suite">
+              </div> <!-- times-div-MiniFram1_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MiniFram1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MiniFram1 Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MiniFram1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestPackage1.TestCase2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertesttmethod1</span>
+                <br/>
+                <span class="ignored-method-name">aftertesttmethod1</span>
+                <br/>
+                <span class="ignored-method-name">aftertesttmethod1</span>
+                <br/>
+                <span class="ignored-method-name">beforetestmethod1</span>
+                <br/>
+                <span class="ignored-method-name">beforetestmethod1</span>
+                <br/>
+                <span class="ignored-method-name">beforetestmethod1</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MiniFram1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackage1.TestCase1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetestmethod1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetestmethod1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetestmethod1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodmethod1(edge)</span>
+                <span class="method-start">288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodmethod1()</span>
+                <span class="method-start">288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodmethod1(chrome)</span>
+                <span class="method-start">601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SampleMethodforEmailEntering</span>
+                <span class="method-start">21616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SampleMethodforEmailEntering</span>
+                <span class="method-start">25465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SampleMethodforEmailEntering</span>
+                <span class="method-start">26661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethodtmethod1([TestResult name=SampleMethodforEmailEntering status=SKIP method=TestCase1.SampleMethodforEmailEnter...)</span>
+                <span class="method-start">30756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">aftermethodtmethod1([TestResult name=SampleMethodforEmailEntering status=SKIP method=TestCase1.SampleMethodforEmailEnter...)</span>
+                <span class="method-start">32219 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">aftermethodtmethod1([TestResult name=SampleMethodforEmailEntering status=SKIP method=TestCase1.SampleMethodforEmailEnter...)</span>
+                <span class="method-start">42370 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodmethod1(edge)</span>
+                <span class="method-start">44900 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodmethod1</span>
+                <span class="method-start">44904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertesttmethod1</span>
+                <span class="method-start">44973 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodmethod1</span>
+                <span class="method-start">45898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertesttmethod1</span>
+                <span class="method-start">46163 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">SampleMethodforEmailEntering</span>
+                <span class="method-start">56736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethodtmethod1([TestResult name=SampleMethodforEmailEntering status=SUCCESS method=TestCase1.SampleMethodforEmailEn...)</span>
+                <span class="method-start">59261 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodmethod1(edge)</span>
+                <span class="method-start">63176 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickContniueButtoon</span>
+                <span class="method-start">72681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethodtmethod1([TestResult name=clickContniueButtoon status=SUCCESS method=TestCase1.clickContniueButtoon()[pri:0, ...)</span>
+                <span class="method-start">76007 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackage1.TestCase2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodmethod1(edge)</span>
+                <span class="method-start">79973 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickCreateAccount</span>
+                <span class="method-start">89298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethodtmethod1([TestResult name=clickCreateAccount status=SUCCESS method=TestCase2.clickCreateAccount()[pri:0, inst...)</span>
+                <span class="method-start">93320 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodmethod1(edge)</span>
+                <span class="method-start">97241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createnewaccount</span>
+                <span class="method-start">106196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethodtmethod1([TestResult name=createnewaccount status=SUCCESS method=TestCase2.createnewaccount()[pri:0, instance...)</span>
+                <span class="method-start">110671 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackage1.TestCase1</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertesttmethod1</span>
+                <span class="method-start">114555 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

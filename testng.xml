@@ -1,0 +1,37 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MiniFram1 Test Suite" parallel="tests" >
+	<listeners>
+		<listener class-name="utils.suiteListner"></listener>
+		</listeners>
+  <test name="MiniFrameTest1">
+  <parameter name="browsername" value="chrome"></parameter>
+    <classes>
+      <class name="TestPackage1.TestCase1"/>
+      <class name="TestPackage1.TestCase2"/>
+    </classes>
+  </test> <!-- Take1 -->
+  
+  
+  <test name="MiniFrameTest2">
+  <parameter name="browsername" value="edge"></parameter>
+    <classes>
+      <class name="TestPackage1.TestCase1"/>
+      <class name="TestPackage1.TestCase2"/>
+    </classes>
+  </test> <!-- Take2 -->
+  
+  
+  
+  <test name="MiniFrameTest3">
+  <parameter name="browsername" value=""></parameter>
+    <classes>
+      <class name="TestPackage1.TestCase1"/>
+      <class name="TestPackage1.TestCase2"/>
+    </classes>
+  </test> <!-- Take3 -->
+  
+  
+  
+  
+  </suite>
